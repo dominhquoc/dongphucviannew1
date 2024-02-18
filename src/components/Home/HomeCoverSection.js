@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react'
 import Tag from '../Elements/Tag';
 import { slug } from 'github-slugger';
-import InsightRoll from "@/src/components/About/InsightRoll";
+// import InsightRoll from "@/src/components/About/InsightRoll";
 import siteMetadata from "@/src/utils/siteMetaData";
 
 
@@ -28,7 +28,7 @@ const HomeCoverSection = ({ blogs }) => {
 
   return (
     <div className='w-full inline-block'>
-      <InsightRoll insights={insights} />
+      {/* <InsightRoll insights={insights} /> */}
 
       <article className='flex flex-col items-start justify-end mx-5 sm:mx-10 relative h-[60vh] sm:h-[85vh] mt-5'>
         <div className='absolute top-0 left-0 bottom-0 right-0 h-full
