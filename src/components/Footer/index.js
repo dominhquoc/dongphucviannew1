@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 
-import Link from "next/link";
 import siteMetadata from "@/src/utils/siteMetaData";
 
 const Footer = () => {
@@ -34,12 +33,7 @@ const Footer = () => {
         <span className="text-center">
           &copy;2024 Bảng quyền thuộc Đồng Phục Vi An
         </span>
-        <Link
-          href="/sitemap.xml"
-          className="text-center underline my-4 md:my-0"
-        >
-          sitemap.xml
-        </Link>
+
         <div className="text-center">
           Làm bởi &hearts;{" "}
           <a href="https://dongphucvian.com" className="underline" target="_blank">
