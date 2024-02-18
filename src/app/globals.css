@@ -113,7 +113,3 @@
     }
   }
   
-  .animate-blink {
-    animation: blink 20s infinite; /* Hiệu ứng chớp mắt */
-  }
-  
