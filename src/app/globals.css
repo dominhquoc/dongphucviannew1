@@ -106,10 +106,6 @@
     }
   }
 
-  .animate-shake {
-    animation: shake 1s infinite;
-  }
-
   @keyframes blink {
     50% {
       background-color: #000000; /* Màu nền khung khi đang chớp */
